@@ -6,13 +6,13 @@
                     <b>ADD COUNTRY</b>
                 </h1>
                 <div class="form mb-3">
-                    <b-form-input v-model="country.name" placeholder="Enter the CountryName" required></b-form-input>
+                    <label>Country Name</label><b-form-input v-model="country.name" placeholder="Enter the CountryName" required></b-form-input>
                 </div>
                 <div class="form mb-3">
-                    <b-form-input v-model="country.description" placeholder="Description" required></b-form-input>
+                    <label>Country Description</label><b-form-input v-model="country.description" placeholder="Description" required></b-form-input>
                 </div>
                 <div class="form mb-3">
-                    <b-form-input v-model="country.countryCode" placeholder="Country Code" required></b-form-input>
+                    <label>Country Code</label><b-form-input v-model="country.countryCode" placeholder="Country Code" required></b-form-input>
                 </div>
                 <b-button variant="outline-primary" size="lg" @click="handleAdd">Add</b-button>
             </b-container>
